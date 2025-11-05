@@ -5,13 +5,17 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml/1"
         xmlns="http://javafx.com/javafx/17.0.12"
-        fx:controller="com.example.base.controllers.UserListController">
-    <TableView fx:id="tableUsers">
-        <columns>
-            <TableColumn fx:id="colName" text="number"/>
-            <TableColumn fx:id="colEmail" text="EMAIL"/>
-            <TableColumn fx:id="colAge" text="VEjez"/>
-            <TableColumn fx:id="colActions" text="Cosas"/>
-        </columns>
-    </TableView>
+        fx:controller="com.example.base.controllers.UserListController" spacing="15"
+        alignment="TOP_CENTER">
+    <HBox alignment="CENTER_LEFT">
+        <TableView fx:id="tableUsers" prefWidth="550">
+            <columns>
+                <TableColumn fx:id="colName" text="Nombre"/>
+                <TableColumn fx:id="colEmail" text="E-mail"/>
+                <TableColumn fx:id="colAge" text="Edad"/>
+                <TableColumn fx:id="colActions" text="Acciones"/>
+            </columns>
+        </TableView>
+    </HBox>
+
 </VBox>

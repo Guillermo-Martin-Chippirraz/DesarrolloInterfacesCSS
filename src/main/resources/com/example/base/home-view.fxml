@@ -5,16 +5,17 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
+<?import javafx.scene.text.Text?>
 <VBox xmlns="http://javafx.com/javafx/17.0.12"
       xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.base.controllers.HomeController">
-
+      fx:controller="com.example.base.controllers.HomeController"
+      alignment="CENTER" spacing="15">
     <!-- Título principal -->
-    <Label text="App Gestión de mis cosas"/>
+    <Label text="App Gestión de Filming" />
 
     <!-- Subtítulo -->
-    <Label text="Controla perros y gatos En este alucinante juego de carreras!!"/>
+    <Label text="Home"/>
 
     <!-- Texto informativo -->
-    <Label text="Bienvenido a la aplicación de gestión multimedia. Desde aquí puedes administrar Users, registrar nuevas Filmes y revisar toda la base de datos."/>
+    <Text text="Bienvenido a la aplicación de gestión multimedia. Desde aquí puedes administrar Users, registrar nuevas Filmes y revisar toda la base de datos." textAlignment="JUSTIFY"/>
 </VBox>
