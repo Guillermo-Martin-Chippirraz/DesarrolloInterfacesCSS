@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<MenuBar
+        xmlns:fx="http://javafx.com/fxml/1"
+        xmlns="http://javafx.com/javafx/17.0.12"
+        fx:controller="com.example.base.controllers.TopMenuController">
+    <menus>
+
+        <Menu text="Home">
+            <items>
+                <MenuItem fx:id="menuHome" text="Ir al Home"/>
+            </items>
+        </Menu>
+
+        <Menu text="Usuarios">
+            <items>
+                <MenuItem fx:id="menuUsuariosListado" text="Listado"/>
+                <MenuItem fx:id="menuUsuariosAgregar" text="Añadir"/>
+            </items>
+        </Menu>
+
+        <Menu text="Películas">
+            <items>
+                <MenuItem fx:id="menuPeliculasListado" text="Listado"/>
+                <MenuItem fx:id="menuPeliculasAgregar" text="Añadir"/>
+            </items>
+        </Menu>
+
+    </menus>
+</MenuBar>

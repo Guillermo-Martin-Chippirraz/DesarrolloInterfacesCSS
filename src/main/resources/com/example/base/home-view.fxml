@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.base.controllers.HomeController">
+
+    <!-- Título principal -->
+    <Label text="App Gestión de mis cosas"/>
+
+    <!-- Subtítulo -->
+    <Label text="Controla perros y gatos En este alucinante juego de carreras!!"/>
+
+    <!-- Texto informativo -->
+    <Label text="Bienvenido a la aplicación de gestión multimedia. Desde aquí puedes administrar Users, registrar nuevas Filmes y revisar toda la base de datos."/>
+</VBox>

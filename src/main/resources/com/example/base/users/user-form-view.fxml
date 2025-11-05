@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      fx:controller="com.example.base.controllers.UserFormController">
+
+    <Label text="Formulario de cosas"/>
+
+    <TextField fx:id="txtName"/>
+
+    <Label text="Email:"/>
+    <TextField fx:id="txtEmail"/>
+
+    <TextField fx:id="txtAge"/>
+
+    <HBox>
+        <Button fx:id="btnSave" text="Guardar"/>
+        <Button fx:id="btnCancel" text="Cancelar"/>
+    </HBox>
+
+</VBox>

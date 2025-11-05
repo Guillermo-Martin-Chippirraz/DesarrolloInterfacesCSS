@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      fx:controller="com.example.base.controllers.LeftMenuController">
+    <Button fx:id="btnHome" text="🏠 Home"/>
+    <Separator/>
+
+    <Label text="Usuarios"/>
+    <Button fx:id="btnUsuariosListado" text="Listado"/>
+    <Button fx:id="btnUsuariosAgregar" text="Añadir"/>
+    <Separator/>
+
+    <Label text="Películas"/>
+    <Button fx:id="btnPeliculasListado" text="Listado"/>
+    <Button fx:id="btnPeliculasAgregar" text="Añadir"/>
+</VBox>

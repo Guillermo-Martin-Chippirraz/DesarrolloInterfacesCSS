@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      fx:controller="com.example.base.controllers.FilmFormController">
+
+    <TextField fx:id="txtTitle"/>
+
+    <TextField fx:id="txtDirector"/>
+
+    <Label text="Año:"/>
+    <TextField fx:id="txtYear"/>
+
+    <Button fx:id="btnCancel" text="Cancelar"/>
+    <Button fx:id="btnSave" text="Guardar"/>
+</VBox>

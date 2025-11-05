@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            xmlns="http://javafx.com/javafx/17.0.12"
+            fx:controller="com.example.base.controllers.BaseController"
+            fx:id="borderPane">
+    <top>
+        <fx:include fx:id="topMenu" source="menus/top-menu-view.fxml"/>
+    </top>
+    <left>
+        <fx:include fx:id="leftMenu" source="menus/left-menu-view.fxml"/>
+    </left>
+    <center>
+        <StackPane fx:id="centralPane"/>
+    </center>
+    <bottom>
+        <fx:include source="menus/bottom-menu-view.fxml"/>
+    </bottom>
+</BorderPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox
+      xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      fx:controller="com.example.base.controllers.FilmListController">
+    <Label text="Listado de Peliculas"/>
+
+    <TableView fx:id="tableFilms">
+        <columns>
+            <TableColumn fx:id="colTitle" text="Titulamen"/>
+            <TableColumn fx:id="colDirector" text="El mandamas"/>
+            <TableColumn fx:id="colYear" text="Momento"/>
+            <TableColumn fx:id="colActions" text=""/>
+        </columns>
+    </TableView>
+</VBox>

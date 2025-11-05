@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+        xmlns="http://javafx.com/javafx/17.0.12"
+        fx:controller="com.example.base.controllers.UserListController">
+    <TableView fx:id="tableUsers">
+        <columns>
+            <TableColumn fx:id="colName" text="number"/>
+            <TableColumn fx:id="colEmail" text="EMAIL"/>
+            <TableColumn fx:id="colAge" text="VEjez"/>
+            <TableColumn fx:id="colActions" text="Cosas"/>
+        </columns>
+    </TableView>
+</VBox>
