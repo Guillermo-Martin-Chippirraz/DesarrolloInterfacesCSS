@@ -6,7 +6,8 @@
 <BorderPane xmlns:fx="http://javafx.com/fxml/1"
             xmlns="http://javafx.com/javafx/17.0.12"
             fx:controller="com.example.base.controllers.BaseController"
-            fx:id="borderPane">
+            fx:id="borderPane"
+            stylesheets="@streamora.css">
     <top>
         <fx:include fx:id="topMenu" source="menus/top-menu-view.fxml"/>
     </top>

@@ -42,6 +42,8 @@ public class FilmListController {
             private final HBox container = new HBox(10, btnEdit, btnDelete);
 
             {
+                estilizarBotonEditar(btnEdit);
+                estilizarBotonEliminar(btnDelete);
                 // Acción Editar (por ahora sólo imprime)
                 btnEdit.setOnAction(event -> {
                     Film film = getTableView().getItems().get(getIndex());
@@ -66,5 +68,13 @@ public class FilmListController {
                 }
             }
         });
+    }
+
+    private void estilizarBotonEditar(Button btn) {
+        btn.setStyle("-fx-background-color: #7a3fc8; -fx-text-fill: white; -fx-font-size: 13px; -fx-padding: 6 14; -fx-background-radius: 4;");
+    }
+
+    private void estilizarBotonEliminar(Button btn) {
+        btn.setStyle("-fx-background-color: #cc3333; -fx-text-fill: white; -fx-font-size: 13px; -fx-padding: 6 14; -fx-background-radius: 4;");
     }
 }

@@ -5,16 +5,19 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml/1"
       xmlns="http://javafx.com/javafx/17.0.12"
-      fx:controller="com.example.base.controllers.UserFormController">
+      fx:controller="com.example.base.controllers.UserFormController" spacing="5" alignment="TOP_LEFT"
+        prefWidth="550" styleClass="formulario">
 
-    <Label text="Formulario de cosas"/>
+    <Label text="Crear/Editar usuario"/>
 
-    <TextField fx:id="txtName"/>
+    <Label text="Nombre:" />
+    <TextField fx:id="txtName" maxWidth="100"/>
 
     <Label text="Email:"/>
-    <TextField fx:id="txtEmail"/>
+    <TextField fx:id="txtEmail" maxWidth="100"/>
 
-    <TextField fx:id="txtAge"/>
+    <Label text="Edad:" />
+    <TextField fx:id="txtAge" maxWidth="100"/>
 
     <HBox>
         <Button fx:id="btnSave" text="Guardar"/>

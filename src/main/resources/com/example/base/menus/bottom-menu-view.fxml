@@ -3,6 +3,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<HBox>
-    <Label text="App Gestión Multimedia - Versión 1.0 | © 2025 App Gestión Multimedia - Versión 1.0 | © 2025 App Gestión Multimedia - Versión 1.0 | © 2025 App Gestión Multimedia - Versión 1.0 | © 2025 App Gestión Multimedia - Versión 1.0 | © 2025 App Gestión Multimedia - Versión 1.0 | © 2025 App Gestión Multimedia - Versión 1.0 | © 2025"/>
+<HBox styleClass="footer">
+    <Label text="App Gestión Multimedia - Versión 1.0 | © 2025" />
 </HBox>

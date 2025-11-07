@@ -6,9 +6,10 @@
 <VBox xmlns:fx="http://javafx.com/fxml/1"
         xmlns="http://javafx.com/javafx/17.0.12"
         fx:controller="com.example.base.controllers.UserListController" spacing="15"
-        alignment="TOP_CENTER">
+        alignment="TOP_LEFT" styleClass="listado">
+    <Label text="Listado de usuarios" />
     <HBox alignment="CENTER_LEFT">
-        <TableView fx:id="tableUsers" prefWidth="550">
+        <TableView fx:id="tableUsers" prefWidth="550" >
             <columns>
                 <TableColumn fx:id="colName" text="Nombre"/>
                 <TableColumn fx:id="colEmail" text="E-mail"/>

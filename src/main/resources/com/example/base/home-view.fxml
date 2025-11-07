@@ -9,13 +9,15 @@
 <VBox xmlns="http://javafx.com/javafx/17.0.12"
       xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.example.base.controllers.HomeController"
-      alignment="CENTER" spacing="15">
+      alignment="CENTER" spacing="15" styleClass="home">
     <!-- Título principal -->
-    <Label text="App Gestión de Filming" />
+    <Label text="App Gestión de Filming"/>
 
     <!-- Subtítulo -->
     <Label text="Home"/>
 
     <!-- Texto informativo -->
-    <Text text="Bienvenido a la aplicación de gestión multimedia. Desde aquí puedes administrar Users, registrar nuevas Filmes y revisar toda la base de datos." textAlignment="JUSTIFY"/>
+    <Text text="Bienvenido a la aplicación de gestión multimedia. Desde aquí puedes administrar Users, registrar nuevas Filmes y revisar toda la base de datos."
+          textAlignment="JUSTIFY"
+          styleClass="text"  />
 </VBox>

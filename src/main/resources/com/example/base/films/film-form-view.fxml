@@ -5,14 +5,19 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml/1"
       xmlns="http://javafx.com/javafx/17.0.12"
-      fx:controller="com.example.base.controllers.FilmFormController">
+      fx:controller="com.example.base.controllers.FilmFormController" spacing="5" prefWidth="550" alignment="TOP_LEFT"
+      styleClass="formulario">
 
-    <TextField fx:id="txtTitle"/>
+    <Label text="Crear/Editar film" />
 
-    <TextField fx:id="txtDirector"/>
+    <Label text="Título:" />
+    <TextField fx:id="txtTitle" maxWidth="100"/>
+
+    <Label text="Director:" />
+    <TextField fx:id="txtDirector" maxWidth="100"/>
 
     <Label text="Año:"/>
-    <TextField fx:id="txtYear"/>
+    <TextField fx:id="txtYear" maxWidth="100"/>
 
     <Button fx:id="btnCancel" text="Cancelar"/>
     <Button fx:id="btnSave" text="Guardar"/>

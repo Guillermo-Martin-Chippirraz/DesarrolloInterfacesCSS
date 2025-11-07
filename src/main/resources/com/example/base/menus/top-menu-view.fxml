@@ -6,7 +6,8 @@
 <MenuBar
         xmlns:fx="http://javafx.com/fxml/1"
         xmlns="http://javafx.com/javafx/17.0.12"
-        fx:controller="com.example.base.controllers.TopMenuController">
+        fx:controller="com.example.base.controllers.TopMenuController"
+        styleClass="topbar">
     <menus>
 
         <Menu text="Home">

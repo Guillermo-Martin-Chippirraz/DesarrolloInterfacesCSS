@@ -5,16 +5,16 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml/1"
       xmlns="http://javafx.com/javafx/17.0.12"
-      fx:controller="com.example.base.controllers.LeftMenuController">
-    <Button fx:id="btnHome" text="🏠 Home"/>
+      fx:controller="com.example.base.controllers.LeftMenuController" styleClass="sidebar">
+    <Button fx:id="btnHome" text="🏠 Home" styleClass="button-primary"/>
     <Separator/>
 
-    <Label text="Usuarios"/>
-    <Button fx:id="btnUsuariosListado" text="Listado"/>
-    <Button fx:id="btnUsuariosAgregar" text="Añadir"/>
+    <Label text="Usuarios" />
+    <Button fx:id="btnUsuariosListado" text="Listado" styleClass="button-primary"/>
+    <Button fx:id="btnUsuariosAgregar" text="Añadir" styleClass="button-primary"/>
     <Separator/>
 
-    <Label text="Películas"/>
-    <Button fx:id="btnPeliculasListado" text="Listado"/>
-    <Button fx:id="btnPeliculasAgregar" text="Añadir"/>
+    <Label text="Películas" />
+    <Button fx:id="btnPeliculasListado" text="Listado" styleClass="button-primary"/>
+    <Button fx:id="btnPeliculasAgregar" text="Añadir" styleClass="button-primary"/>
 </VBox>
